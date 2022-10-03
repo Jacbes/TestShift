@@ -1,3 +1,5 @@
+![Workflow Status](https://github.com/Jacbes/TestShift/actions/workflows/main.yml/badge.svg)
+
 Тестовое задание для ШИФТ от Беседина Якова.
 
 Java version: 1.8
