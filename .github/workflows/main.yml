@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Set up JDK 11
+      - name: Set up JDK 8
         uses: actions/setup-java@v3
         with:
           java-version: '8'
@@ -16,4 +16,4 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode --update-snapshots package
       - name: Run Program
-        run: java -jar files/out.txt files/in1.txt files/in2.txt files/in3.txt
+        run: java -jar target/TestShift-1.0-SNAPSHOT.jar files/out.txt files/in1.txt files/in2.txt files/in3.txt
